@@ -41,7 +41,8 @@ INSERT INTO TRONCON (id_T, nom_T, distance, id_Type_Sol, denivele_Moyen, code_E1
 INSERT INTO TRONCON (id_T, nom_T, distance, id_Type_Sol, denivele_Moyen, code_E1, code_E2) VALUES (7, 'Blois - Valençay', 75, 3, 40, 7, 8);
 INSERT INTO TRONCON (id_T, nom_T, distance, id_Type_Sol, denivele_Moyen, code_E1, code_E2) VALUES (8, 'Valençay - Châteauroux', 54, 3, 25, 8, 9);
 INSERT INTO TRONCON (id_T, nom_T, distance, id_Type_Sol, denivele_Moyen, code_E1, code_E2) VALUES (9, 'Châteauroux - Vierzon', 85, 3, 40, 9, 10);
-
+INSERT INTO TRONCON (id_T, nom_T, distance, id_Type_Sol, denivele_Moyen, code_E1, code_E2) VALUES (10, 'Orléans - Tours', 123, 1, 50, 1, 3);
+INSERT INTO TRONCON (id_T, nom_T, distance, id_Type_Sol, denivele_Moyen, code_E1, code_E2) VALUES (11, 'Orléans - Aubigny-sur-Nère', 145, 2, 60, 1, 4);
 
 -- Insertions dans la table CONTIENT
 INSERT INTO CONTIENT (id_T, id_P) VALUES (1, 1);
