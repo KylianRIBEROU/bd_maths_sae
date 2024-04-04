@@ -31,5 +31,4 @@ CREATE TABLE Troncon (
     distance INT,
     ptsInteret pointInteret,    
     indiceQualite indiceQualiteList
-) NESTED TABLE ptsInteret STORE AS pointsInteretTable
-  NESTED TABLE indiceQualite STORE AS indiceQualiteTable;
+) NESTED TABLE ptsInteret STORE AS pointsInteretTable;
